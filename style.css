@@ -18,13 +18,15 @@
 	text-align:center;
 }
 
-#header h1 { margin: 10; }
+#header h1 { margin: 1; }
 
 #navigation
 {
 	float: left;
-	width: 50%;
+	width: 100%;
 	background: #5E4F4F;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #navigation ul
@@ -56,10 +58,11 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
+	margin-top: 100px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #31F301;
+	box-shadow: 5px 5px 6px #31F301;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
@@ -87,7 +90,7 @@
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #31F301;
+	box-shadow: 5px 5px 6px #31F301;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
