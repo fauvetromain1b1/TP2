@@ -1,16 +1,25 @@
+a
+{
+	text-decoration:none;
+	color: #CC0000;
+}
+body
+{
+	background: #A62A16;
+}
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #A62A16;
 }
 
 #header
 {
-	background: #ccc;
+	background: #A62A16;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; color:#fff; }
 
 #navigation
 {
@@ -58,11 +67,12 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background:#FE7D00;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #fff;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,12 +93,13 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background:#fff;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #3B3B3B;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
