@@ -1,13 +1,25 @@
+a
+{
+	text-decoration:none;
+	color: #CC0000;
+}
+body
+{
+	background: #ADDE4E;
+	margin:0px;
+}
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #ADDE4E;
 }
 
 #header
 {
-	background: #ccc;
+	background: #BFDEE6;
 	padding: 20px;
+	border-radius:0 0 15px 15px;
+	box-shadow: 0px 0px 6px #000000;
 }
 
 #header h1 { margin: 0; }
@@ -58,11 +70,12 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background:#FFFFB1;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #CC0000;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,12 +96,13 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background:#4D9453;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #ADDE4E;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
